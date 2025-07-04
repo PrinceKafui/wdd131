@@ -41,7 +41,6 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 1.8rem;
             font-weight: 700;
-            margin-bottom:none;
             padding: 1.5rem;
             background-color: #3498db;
             text-align: center;
@@ -150,7 +149,6 @@
         }
 
         .city {
-          background-color:none;
           text-align: center;
           border-bottom: 1px solid silver;
 
