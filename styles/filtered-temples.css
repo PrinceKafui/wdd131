@@ -18,13 +18,13 @@
 
         body {
             background: linear-gradient(135deg, #1a2a6c, #b21f1f, #1a2a6c);
-            color: var(--light);
+            color: white;
             min-height: 100vh;
             padding-bottom: 60px;
         }
 
         header {
-            background-color: rgba(26, 37, 47, 0.95);
+            background-color: #1a252f;;
             padding: 1rem;
             position: sticky;
             top: 0;
@@ -53,7 +53,7 @@
         }
 
         .logo span {
-            color: var(--secondary);
+            color:  #5dade2;
         }
 
         .hamburger {
@@ -134,7 +134,7 @@
             text-align: center;
             margin-bottom: 2rem;
             padding: 0.8rem;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(44, 62, 80, 0.9);
             border-radius: 8px;
             font-size: 1.1rem;
         }
@@ -153,7 +153,7 @@
 
         .temple-card {
             background: rgba(255, 255, 255, 0.95);
-            border-radius: 10px;
+            border-radius: 5px;
             overflow: hidden;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -194,7 +194,7 @@
 
         .temple-info p {
             margin: 0.5rem 0;
-            color: #555;
+            color: #2c3e50;
             display: flex;
             align-items: center;
         }
@@ -207,7 +207,7 @@
 
         .temple-info .area {
             font-weight: bold;
-            color: var(--accent);
+            color: #ff6b5a;
         }
 
         .temple-stats {
@@ -224,30 +224,30 @@
 
         .stat-value {
             font-weight: bold;
-            color: var(--secondary);
+            color: var(--secondary) #217dbb;
             font-size: 1.1rem;
         }
 
         .stat-label {
             font-size: 0.85rem;
-            color: var(--gray);
+            color: #666;
         }
 
         .year-badge {
             position: absolute;
             top: 15px;
             right: 15px;
-            background: var(--accent);
+            background:  var(--secondary) #217dbb;
             color: white;
             padding: 5px 10px;
-            border-radius: 20px;
+            border-radius: 8px;
             font-weight: bold;
             font-size: 0.9rem;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
 
         footer {
-            background-color: rgba(26, 37, 47, 0.95);
+            background-color: #1a252f;;
             text-align: center;
             padding: 1.5rem;
             margin-top: 3rem;

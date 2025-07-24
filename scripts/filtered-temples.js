@@ -52,25 +52,25 @@
             },
             // Additional temples
             {
-                templeName: "Rome Italy",
-                location: "Rome, Italy",
-                dedicated: "2019, March, 10",
-                area: 40000,
-                imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/400x250/rome-italy-temple-lds-1075831-wallpaper.jpg"
+                templeName: "Talstrasse germany",
+                location: "Talstrasse , germany",
+                dedicated: "2019, October, 20",
+                area: 32895,
+                imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/frankfurt-germany-temple/frankfurt-germany-temple-38924-main.jpg"
             },
             {
-                templeName: "Salt Lake City",
-                location: "Salt Lake City, Utah, United States",
-                dedicated: "1893, April, 6",
-                area: 253000,
-                imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-temple/400x250/salt-lake-temple-766443-wallpaper.jpg"
+                templeName: "Accra Ghana",
+                location: "Accra, Ghana",
+                dedicated: "2004, January, 11",
+                area: 17500,
+                imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple/accra-ghana-temple-13760-main.jpg"
             },
             {
-                templeName: "Kyiv Ukraine",
-                location: "Kyiv, Ukraine",
-                dedicated: "2010, August, 29",
-                area: 22000,
-                imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/kyiv-ukraine/400x250/kyiv-ukraine-temple-lds-1079223-wallpaper.jpg"
+                templeName: "London England",
+                location: "London , England",
+                dedicated: "1992, October, 18",
+                area: 42652,
+                imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/london-england-temple/london-england-temple-4243-main.jpg"
             }
         ];
 
