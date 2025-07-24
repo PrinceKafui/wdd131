@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Gallery - Prince Amexo</title>
+    <meta name="description" content="WDD 131">
+    <meta name="author" content="Prince Amexo">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+     <script src="scripts/filtered-temples.js" defer></script>
+   
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">Temple <span>Gallery</span></div>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="nav" class="active">
+                <ul>
+                    <li><a href="#" class="nav-link active" data-filter="home">Home</a></li>
+                    <li><a href="#" class="nav-link" data-filter="old">Old</a></li>
+                    <li><a href="#" class="nav-link" data-filter="new">New</a></li>
+                    <li><a href="#" class="nav-link" data-filter="large">Large</a></li>
+                    <li><a href="#" class="nav-link" data-filter="small">Small</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        <h1>Sacred Temple Gallery</h1>
+        <div class="filter-info">Showing <span id="filter-indicator">all</span> temples</div>
+        
+        <div class="gallery" id="gallery">
+            <!-- Temple cards will be dynamically generated here -->
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Prince Amexo | Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+    
+   
+</body>
+</html>
