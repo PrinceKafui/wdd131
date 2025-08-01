@@ -14,7 +14,7 @@
             { id: "p010", name: " Blender" }
         ];
 
-        // Populate product dropdown
+        //  product dropdown
         const productSelect = document.getElementById('productName');
         products.forEach(product => {
             const option = document.createElement('option');
