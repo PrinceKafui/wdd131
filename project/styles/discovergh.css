@@ -395,44 +395,6 @@ textarea {
   resize: vertical;
 }
 
-/* Button styling */
-/* .btn, .submit-btn {
-  background-color: var(--gold);
-  color: var(--black);
-  border: none;
-  padding: 15px 30px;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-align: center;
-  
-}
-
-.submit-btn {
-  width: 100%;
-  margin-top: 10px;
-}
-
-.btn:hover, .submit-btn:hover {
-  background-color: var(--dark-green);
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  color: white;
-}
-
-.btn-outline {
-  background-color: transparent;
-  color: white;
-  border: 2px solid white;
-  margin-left: 1rem;
-}
-
-.btn-outline:hover {
-  background-color: white;
-  color: var(--black);
-} */
 
 .btn {
   display: inline-block;
@@ -461,7 +423,7 @@ textarea {
   outline-offset: 2px;
 }
 
-/* Outline Button (inherits from .btn) */
+
 .btn-outline {
   background-color: transparent;
   color: white;
@@ -474,7 +436,6 @@ textarea {
   border-color: white;
 }
 
-/* Submit Button (inherits from .btn, but full width for forms) */
 .submit-btn {
   display: block;
   width: 100%;
