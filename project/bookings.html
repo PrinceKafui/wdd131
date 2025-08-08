@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Ghana - Explore the Beauty, Culture, and Adventure</title>
+    <meta name="description" content="WDD 131">
+    <meta name="author" content="Prince Amexo">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/discovergh.css">
+    <script src="scripts/project.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="homepage.html" class="logo">
+                <div class="logo-text">Discover Ghana</div>
+            </a>
+            
+            <nav>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="nav-links">
+                    <a href="homepage.html" class="active">Home</a>
+                    <a href="destinations.html">Destinations</a>
+                    <a href="bookings.html">Booking</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section booking">
+        <div class="section-title">
+            <h2>Plan Your Visit</h2>
+            <p>Book your Ghana adventure with our easy reservation system</p>
+        </div>
+        
+        <div class="booking-container">
+            <form id="booking-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="destination">Destination</label>
+                        <select id="destination" name="destination" required>
+                            <option value="">Select Destination</option>
+                            <option value="wli">Wli Waterfalls</option>
+                            <option value="tafi">Tafi Atome Monkey Sanctuary</option>
+                            <option value="afadja">Mountain Afadja</option>
+                            <option value="elmina">Elmina Castle</option>
+                            <option value="manhyia">Manhyia Palace Museum</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Visit Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="travelers">Number of Travelers</label>
+                    <select id="travelers" name="travelers" required>
+                        <option value="">Select Number</option>
+                        <option value="1">1 Traveler</option>
+                        <option value="2">2 Travelers</option>
+                        <option value="3">3 Travelers</option>
+                        <option value="4">4 Travelers</option>
+                        <option value="5+">5+ Travelers</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Special Requests</label>
+                    <textarea id="message" name="message" placeholder="Any special requests or requirements..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Booking</button>
+            </form>
+        </div>
+    </section>
+
+  
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Discover Ghana</h4>
+                <p>Your gateway to experiencing the beauty, culture, and adventure of Ghana. We're dedicated to promoting sustainable tourism and authentic Ghanaian experiences.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="homepage.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="destinations.html"><i class="fas fa-chevron-right"></i> Destinations</a></li>
+                    <li><a href="bookings.html"><i class="fas fa-chevron-right"></i> Booking</a></li>
+                    <li><a href="about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+                    <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                    <li><a href="references.html"><i class="fas fa-chevron-right"></i> References</a></li>
+
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Popular Destinations</h4>
+                <ul class="footer-links" id="footer-destinations"> </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Contact Information</h4>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+                    <li><i class="fas fa-phone"></i> +233 54 204 3829</li>
+                    <li><i class="fas fa-envelope"></i> info@discoverghana.org</li>
+                    <li><i class="fas fa-clock"></i> Mon-Fri: 9AM - 5PM</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+           <p>&copy; <span id="currentyear"></span>  | DiscoverGhana | All Rights Reserved | Prince Amexo | Ghana  |</p>
+           <p id="lastModified"></p>
+        </div>
+    </footer>
+
+   
+</body>
+</html>
